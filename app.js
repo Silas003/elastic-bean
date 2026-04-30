@@ -29,4 +29,10 @@ app.get('/data', async (req, res) => {
     }
 });
 
+app.get("/status",(req,res)=>{
+    res.json({
+        owner:"silas kumi",
+        version:"v5"
+    })
+})
 app.listen(PORT, () => console.log(`Listening on ${PORT}`));
