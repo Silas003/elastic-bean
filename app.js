@@ -8,7 +8,7 @@ const dynamo = new DynamoDBClient({ region: process.env.AWS_REGION || 'eu-west-3
 
 app.get('/', (req, res) => {
     res.json({
-        status: 'ok',
+        status: 'OKKKKKKKKKKKKKKK',
         version: process.env.APP_VERSION || 'unknown',
         environment: process.env.APP_ENV || 'unknown',
         deployedAt: process.env.DEPLOY_TIME || 'unknown',
